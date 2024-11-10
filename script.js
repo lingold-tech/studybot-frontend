@@ -4,7 +4,7 @@ async function signup() {
     const password = document.getElementById('signupPassword').value;
 
     try {
-        const response = await fetch('https://<your-backend-id>.replit.app/signup', {  // Use your Replit backend URL
+        const response = await fetch('https://d01c1e66-20d0-480d-9ec3-471512d07c24-00-3co41by82iftv.pike.replit.dev/', {  // Use your Replit backend URL
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ username, password })
@@ -29,7 +29,7 @@ async function login() {
     const password = document.getElementById('loginPassword').value;
 
     try {
-        const response = await fetch('https://<your-backend-id>.replit.app/login', {  // Use your Replit backend URL
+        const response = await fetch('https://d01c1e66-20d0-480d-9ec3-471512d07c24-00-3co41by82iftv.pike.replit.dev/', {  // Use your Replit backend URL
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ username, password })
